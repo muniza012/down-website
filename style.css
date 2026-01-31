@@ -1,0 +1,57 @@
+body{
+  background: linear-gradient(0deg, #000000, #000000);
+}
+
+.ellipse-1{
+  position: absolute;
+width: 400px;
+height: 90px;
+clip-path: ellipse(33% 40% at 50% 50%);
+/* background:radial-gradient( #B844FF); */
+}
+.img-sec {
+  position: relative;
+  display: inline-block;
+}
+
+
+.fire-icon{
+position: absolute;
+top: 80px;
+left: -40px;
+}
+
+.heart-icon{
+position: absolute;
+  bottom: 25%;
+  right: -10%
+}
+.thunder-icon{
+position: absolute;
+ top: 10%;
+  right: -5%;
+
+}
+.hero-sec h1{
+  background: linear-gradient(90deg, #A734BD 0%, #FF006A 100%);
+-webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 3em;
+}
+.counts{
+  min-height: 120px;
+ background: #34213480;
+
+}
+.counts h2{
+    background: linear-gradient(90deg, #A734BD 0%, #FF006A 100%);
+-webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 2em;
+}
+.counts p{
+  color: white;
+  line-height: 1.3;
+}
