@@ -44,7 +44,7 @@ position: absolute;
  background: #34213480;
 
 }
-.counts h2{
+.counts h2,h2{
     background: linear-gradient(90deg, #A734BD 0%, #FF006A 100%);
 -webkit-background-clip: text;  
   -webkit-text-fill-color: transparent;
@@ -54,4 +54,33 @@ position: absolute;
 .counts p{
   color: white;
   line-height: 1.3;
+}
+.about-down{
+  border-radius: 10px;
+   padding: 0 !important;
+}
+
+.card{
+  background-color:#34213480 !important ;
+  color: white !important;
+ 
+  
+}
+.card-icons{
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF1A;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+
+}
+.two-phones{
+  width: 100%;
+}
+.phones{
+  max-width: 100%;
 }
