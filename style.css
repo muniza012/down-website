@@ -44,7 +44,7 @@ position: absolute;
  background: #34213480;
 
 }
-.counts h2,h2{
+.counts h2,h2,.real-hd{
     background: linear-gradient(90deg, #A734BD 0%, #FF006A 100%);
 -webkit-background-clip: text;  
   -webkit-text-fill-color: transparent;
@@ -80,7 +80,23 @@ position: absolute;
 }
 .two-phones{
   width: 100%;
+  background: #34213480;
+
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
 .phones{
   max-width: 100%;
+ 
+}
+.btns button{
+  background: #34213466 !important;
+color:  #707070;
+;
+
+}
+.testimonial-card{
+  background: #34213480;
+max-width: 500px;
+border-radius: 10px;
 }
