@@ -100,3 +100,10 @@ color:  #707070;
 max-width: 500px;
 border-radius: 10px;
 }
+.footer{
+  background: #34213480;
+font-size: 0.8em !important;
+}
+.navbar-nav .nav-link {
+  white-space: nowrap !important;
+}
